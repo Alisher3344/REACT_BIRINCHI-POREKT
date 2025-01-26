@@ -1,0 +1,64 @@
+.container{
+    max-width: 1180px;
+    padding: 10px;
+    margin: 0 auto;
+    }
+    .servis_CardBox{
+        display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .card_in_box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card_in_box h2{
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 34.01px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+color: rgba(33, 31, 84, 1);        
+    }
+    .card_in_box p{
+        font-family: Roboto;
+font-size: 21px;
+font-weight: 400;
+line-height: 30.01px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 312px;
+color: rgba(110, 113, 145, 1);
+    }
+    @media (max-width:969px) {
+        .servis_CardBox{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+    .h1{
+        font-family: Roboto;
+font-size: 48px;
+font-weight: 700;
+line-height: 57.98px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(33, 31, 84, 1);
+    }
+    .button{
+        padding: 20px;
+        border-radius: 20px;
+    }
+    .dlkfj{
+        margin-top: 70px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
